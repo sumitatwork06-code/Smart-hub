@@ -1,0 +1,1018 @@
+{
+  "users": [
+    {
+      "username": "admin@example.com",
+      "password": "$2b$10$GUnf4V37Lx4u/hUUX17AEO9mdiKz.w83NVM7BjG42M9qYTZziKBiC",
+      "name": "Sunit Singh",
+      "role": "City Planner",
+      "email": "admin@example.com"
+    },
+    {
+      "username": "citizen@example.com",
+      "password": "$2b$10$pYKnogdNNRiJfY/F90b7bObeRjV5BZsoPkS05xNajeORvfTKmLK4a",
+      "name": "Jane Doe",
+      "role": "Community Rep",
+      "email": "citizen@example.com"
+    },
+    {
+      "username": "sumitatwork06@gmail.com",
+      "password": "$2b$10$ljBkQ3DSBOgG99oZMgVTXemdeoWUrHyvfzih2LBDz5hks8yMxdh.C",
+      "name": "Sumit Singh",
+      "role": "City Planner",
+      "email": "sumitatwork06@gmail.com"
+    },
+    {
+      "username": "sumit00944@gmail.com",
+      "password": "$2b$10$ywZAN0f.lSWAW7HPAX0NrOW6Kh1VmCNr7bO5g9/bZZEW5S6boXl6u",
+      "name": "Ssr",
+      "role": "City Planner",
+      "email": "sumit00944@gmail.com"
+    }
+  ],
+  "zones": [
+    {
+      "name": "Zone A: Alkapuri Commercial Core",
+      "lat": 22.3129,
+      "lng": 73.1673,
+      "aqi": 64,
+      "traffic": 23,
+      "energy": 370,
+      "waste": 70,
+      "healthWait": 13,
+      "safetyUnits": 10,
+      "status": "normal",
+      "activeIncidents": [],
+      "baseAqi": 84,
+      "baseTraffic": 48,
+      "baseEnergy": 340,
+      "baseWaste": 65,
+      "baseHealthWait": 18,
+      "baseSafetyUnits": 6,
+      "history": [
+        {
+          "hour": 7,
+          "aqi": 69,
+          "healthWait": 12
+        },
+        {
+          "hour": 8,
+          "aqi": 89,
+          "healthWait": 20
+        },
+        {
+          "hour": 9,
+          "aqi": 104,
+          "healthWait": 28
+        },
+        {
+          "hour": 10,
+          "aqi": 96,
+          "healthWait": 23
+        },
+        {
+          "hour": 11,
+          "aqi": 76,
+          "healthWait": 15
+        },
+        {
+          "hour": 12,
+          "aqi": 72,
+          "healthWait": 11
+        }
+      ],
+      "weatherHistory": [
+        {
+          "day": 1,
+          "rainfall": 0,
+          "humidity": 77,
+          "temperature": 28
+        },
+        {
+          "day": 2,
+          "rainfall": 10,
+          "humidity": 83,
+          "temperature": 27
+        },
+        {
+          "day": 3,
+          "rainfall": 13,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 4,
+          "rainfall": 13,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 5,
+          "rainfall": 0,
+          "humidity": 79,
+          "temperature": 28
+        },
+        {
+          "day": 6,
+          "rainfall": 0,
+          "humidity": 72,
+          "temperature": 29
+        },
+        {
+          "day": 7,
+          "rainfall": 0,
+          "humidity": 65,
+          "temperature": 31
+        },
+        {
+          "day": 8,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 9,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 10,
+          "rainfall": 0,
+          "humidity": 56,
+          "temperature": 34
+        },
+        {
+          "day": 11,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 12,
+          "rainfall": 0,
+          "humidity": 66,
+          "temperature": 31
+        },
+        {
+          "day": 13,
+          "rainfall": 0,
+          "humidity": 73,
+          "temperature": 29
+        },
+        {
+          "day": 14,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        },
+        {
+          "day": 15,
+          "rainfall": 17,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 16,
+          "rainfall": 22,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 17,
+          "rainfall": 0,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 18,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 19,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 20,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 21,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 22,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 23,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 24,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 25,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 26,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 27,
+          "rainfall": 12,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 28,
+          "rainfall": 14,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 29,
+          "rainfall": 16,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 30,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        }
+      ]
+    },
+    {
+      "name": "Zone B: Fatehgunj Academic Hub",
+      "lat": 22.3197,
+      "lng": 73.1873,
+      "aqi": 108,
+      "traffic": 7,
+      "energy": 210,
+      "waste": 47,
+      "healthWait": 30,
+      "safetyUnits": 7,
+      "status": "warning",
+      "activeIncidents": [
+        "Industrial grid capacitor load reaching critical 90% threshold."
+      ],
+      "baseAqi": 128,
+      "baseTraffic": 32,
+      "baseEnergy": 180,
+      "baseWaste": 42,
+      "baseHealthWait": 35,
+      "baseSafetyUnits": 3,
+      "history": [
+        {
+          "hour": 7,
+          "aqi": 113,
+          "healthWait": 29
+        },
+        {
+          "hour": 8,
+          "aqi": 133,
+          "healthWait": 37
+        },
+        {
+          "hour": 9,
+          "aqi": 148,
+          "healthWait": 45
+        },
+        {
+          "hour": 10,
+          "aqi": 140,
+          "healthWait": 40
+        },
+        {
+          "hour": 11,
+          "aqi": 120,
+          "healthWait": 32
+        },
+        {
+          "hour": 12,
+          "aqi": 116,
+          "healthWait": 28
+        }
+      ],
+      "weatherHistory": [
+        {
+          "day": 1,
+          "rainfall": 0,
+          "humidity": 77,
+          "temperature": 28
+        },
+        {
+          "day": 2,
+          "rainfall": 12,
+          "humidity": 83,
+          "temperature": 27
+        },
+        {
+          "day": 3,
+          "rainfall": 17,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 4,
+          "rainfall": 19,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 5,
+          "rainfall": 0,
+          "humidity": 79,
+          "temperature": 28
+        },
+        {
+          "day": 6,
+          "rainfall": 0,
+          "humidity": 72,
+          "temperature": 29
+        },
+        {
+          "day": 7,
+          "rainfall": 0,
+          "humidity": 65,
+          "temperature": 31
+        },
+        {
+          "day": 8,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 9,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 10,
+          "rainfall": 0,
+          "humidity": 56,
+          "temperature": 34
+        },
+        {
+          "day": 11,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 12,
+          "rainfall": 0,
+          "humidity": 66,
+          "temperature": 31
+        },
+        {
+          "day": 13,
+          "rainfall": 0,
+          "humidity": 73,
+          "temperature": 29
+        },
+        {
+          "day": 14,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        },
+        {
+          "day": 15,
+          "rainfall": 13,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 16,
+          "rainfall": 14,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 17,
+          "rainfall": 0,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 18,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 19,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 20,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 21,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 22,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 23,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 24,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 25,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 26,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 27,
+          "rainfall": 14,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 28,
+          "rainfall": 13,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 29,
+          "rainfall": 15,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 30,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        }
+      ]
+    },
+    {
+      "name": "Zone C: Akota-Gotri Medical Hub",
+      "lat": 22.3115,
+      "lng": 73.1491,
+      "aqi": 22,
+      "traffic": 5,
+      "energy": 510,
+      "waste": 59,
+      "healthWait": 7,
+      "safetyUnits": 12,
+      "status": "normal",
+      "activeIncidents": [],
+      "baseAqi": 42,
+      "baseTraffic": 24,
+      "baseEnergy": 480,
+      "baseWaste": 54,
+      "baseHealthWait": 12,
+      "baseSafetyUnits": 8,
+      "history": [
+        {
+          "hour": 7,
+          "aqi": 27,
+          "healthWait": 6
+        },
+        {
+          "hour": 8,
+          "aqi": 47,
+          "healthWait": 14
+        },
+        {
+          "hour": 9,
+          "aqi": 62,
+          "healthWait": 22
+        },
+        {
+          "hour": 10,
+          "aqi": 54,
+          "healthWait": 17
+        },
+        {
+          "hour": 11,
+          "aqi": 34,
+          "healthWait": 9
+        },
+        {
+          "hour": 12,
+          "aqi": 30,
+          "healthWait": 5
+        }
+      ],
+      "weatherHistory": [
+        {
+          "day": 1,
+          "rainfall": 0,
+          "humidity": 77,
+          "temperature": 28
+        },
+        {
+          "day": 2,
+          "rainfall": 14,
+          "humidity": 83,
+          "temperature": 27
+        },
+        {
+          "day": 3,
+          "rainfall": 15,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 4,
+          "rainfall": 18,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 5,
+          "rainfall": 0,
+          "humidity": 79,
+          "temperature": 28
+        },
+        {
+          "day": 6,
+          "rainfall": 0,
+          "humidity": 72,
+          "temperature": 29
+        },
+        {
+          "day": 7,
+          "rainfall": 0,
+          "humidity": 65,
+          "temperature": 31
+        },
+        {
+          "day": 8,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 9,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 10,
+          "rainfall": 0,
+          "humidity": 56,
+          "temperature": 34
+        },
+        {
+          "day": 11,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 12,
+          "rainfall": 0,
+          "humidity": 66,
+          "temperature": 31
+        },
+        {
+          "day": 13,
+          "rainfall": 0,
+          "humidity": 73,
+          "temperature": 29
+        },
+        {
+          "day": 14,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        },
+        {
+          "day": 15,
+          "rainfall": 15,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 16,
+          "rainfall": 14,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 17,
+          "rainfall": 0,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 18,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 19,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 20,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 21,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 22,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 23,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 24,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 25,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 26,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 27,
+          "rainfall": 11,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 28,
+          "rainfall": 14,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 29,
+          "rainfall": 16,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 30,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        }
+      ]
+    },
+    {
+      "name": "Zone D: Makarpura Industrial Zone",
+      "lat": 22.2741,
+      "lng": 73.197,
+      "aqi": 18,
+      "traffic": 5,
+      "energy": 343.6,
+      "waste": 83,
+      "healthWait": 3,
+      "safetyUnits": 9,
+      "status": "normal",
+      "activeIncidents": [],
+      "baseAqi": 38,
+      "baseTraffic": 15,
+      "baseEnergy": 280,
+      "baseWaste": 78,
+      "baseHealthWait": 8,
+      "baseSafetyUnits": 5,
+      "history": [
+        {
+          "hour": 7,
+          "aqi": 23,
+          "healthWait": 2
+        },
+        {
+          "hour": 8,
+          "aqi": 43,
+          "healthWait": 10
+        },
+        {
+          "hour": 9,
+          "aqi": 58,
+          "healthWait": 18
+        },
+        {
+          "hour": 10,
+          "aqi": 50,
+          "healthWait": 13
+        },
+        {
+          "hour": 11,
+          "aqi": 30,
+          "healthWait": 5
+        },
+        {
+          "hour": 12,
+          "aqi": 26,
+          "healthWait": 2
+        }
+      ],
+      "weatherHistory": [
+        {
+          "day": 1,
+          "rainfall": 0,
+          "humidity": 77,
+          "temperature": 28
+        },
+        {
+          "day": 2,
+          "rainfall": 10,
+          "humidity": 83,
+          "temperature": 27
+        },
+        {
+          "day": 3,
+          "rainfall": 17,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 4,
+          "rainfall": 17,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 5,
+          "rainfall": 0,
+          "humidity": 79,
+          "temperature": 28
+        },
+        {
+          "day": 6,
+          "rainfall": 0,
+          "humidity": 72,
+          "temperature": 29
+        },
+        {
+          "day": 7,
+          "rainfall": 0,
+          "humidity": 65,
+          "temperature": 31
+        },
+        {
+          "day": 8,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 9,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 10,
+          "rainfall": 0,
+          "humidity": 56,
+          "temperature": 34
+        },
+        {
+          "day": 11,
+          "rainfall": 0,
+          "humidity": 59,
+          "temperature": 33
+        },
+        {
+          "day": 12,
+          "rainfall": 0,
+          "humidity": 66,
+          "temperature": 31
+        },
+        {
+          "day": 13,
+          "rainfall": 0,
+          "humidity": 73,
+          "temperature": 29
+        },
+        {
+          "day": 14,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        },
+        {
+          "day": 15,
+          "rainfall": 12,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 16,
+          "rainfall": 22,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 17,
+          "rainfall": 0,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 18,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 19,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 20,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 21,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 22,
+          "rainfall": 0,
+          "humidity": 55,
+          "temperature": 34
+        },
+        {
+          "day": 23,
+          "rainfall": 0,
+          "humidity": 57,
+          "temperature": 34
+        },
+        {
+          "day": 24,
+          "rainfall": 0,
+          "humidity": 62,
+          "temperature": 32
+        },
+        {
+          "day": 25,
+          "rainfall": 0,
+          "humidity": 69,
+          "temperature": 30
+        },
+        {
+          "day": 26,
+          "rainfall": 0,
+          "humidity": 76,
+          "temperature": 28
+        },
+        {
+          "day": 27,
+          "rainfall": 8,
+          "humidity": 82,
+          "temperature": 27
+        },
+        {
+          "day": 28,
+          "rainfall": 15,
+          "humidity": 85,
+          "temperature": 26
+        },
+        {
+          "day": 29,
+          "rainfall": 18,
+          "humidity": 84,
+          "temperature": 26
+        },
+        {
+          "day": 30,
+          "rainfall": 0,
+          "humidity": 80,
+          "temperature": 27
+        }
+      ]
+    }
+  ],
+  "workflows": [
+    {
+      "id": "aqi",
+      "name": "AQI Advisory Trigger",
+      "trigger": "Sensor AQI > 150",
+      "action": "Publish community wellness broadcast and reduce speed limits in target sectors.",
+      "active": true
+    },
+    {
+      "id": "grid",
+      "name": "Grid Overload Shunt",
+      "trigger": "Solar Output < 200 kWh (Industrial)",
+      "action": "Switch load to secondary backup storage battery banks.",
+      "active": true
+    },
+    {
+      "id": "traffic",
+      "name": "Traffic Congestion Bypass",
+      "trigger": "Congestion Index > 70%",
+      "action": "Trigger automatic detour warnings on digital signboards and optimize signal timers.",
+      "active": true
+    },
+    {
+      "id": "waste",
+      "name": "EV Waste Truck Dispatch",
+      "trigger": "Bin Capacity > 80%",
+      "action": "Initiate automated route scheduling and dispatch clean energy disposal fleet.",
+      "active": false
+    }
+  ],
+  "citizenReports": [
+    {
+      "id": 1,
+      "category": "traffic",
+      "zoneName": "Zone A: Alkapuri Commercial Core",
+      "zoneIdx": 0,
+      "description": "Minor traffic bottleneck near Alkapuri main roundabout.",
+      "timestamp": "08:15 AM",
+      "status": "resolved"
+    },
+    {
+      "id": 2,
+      "category": "waste",
+      "zoneName": "Zone D: Makarpura Industrial Zone",
+      "zoneIdx": 3,
+      "description": "Industrial recycling waste container overflowing in GIDC sector 4.",
+      "timestamp": "11:42 AM",
+      "status": "pending"
+    }
+  ]
+}
