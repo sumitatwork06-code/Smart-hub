@@ -41,7 +41,7 @@ export default function Workflows({ cityState, setCityState }) {
     setCityState(prev => ({ ...prev, workflows: updatedWorkflows }));
 
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/workflows/toggle`, {
+      const res = await fetch(`${window.API_URL}/api/workflows/toggle`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id: ruleId })
@@ -58,7 +58,7 @@ export default function Workflows({ cityState, setCityState }) {
   const evaluateRules = async () => {
     setEvaluating(true);
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/evaluate`, {
+      const res = await fetch(`${window.API_URL}/api/evaluate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' }
       });
@@ -80,7 +80,7 @@ export default function Workflows({ cityState, setCityState }) {
     setCompiling(true);
 
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/workflows/create`, {
+      const res = await fetch(`${window.API_URL}/api/workflows/create`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ prompt: rulePrompt })

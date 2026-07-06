@@ -13,7 +13,7 @@ export default function WeatherIntelligence({ cityState }) {
     const fetchWeather = async () => {
       setLoading(true);
       try {
-        const res = await fetch(`http://${window.location.hostname}:3001/api/weather/forecast/${selectedZoneIdx}`);
+        const res = await fetch(`${window.API_URL}/api/weather/forecast/${selectedZoneIdx}`);
         const data = await res.json();
         if (data.success) {
           setWeatherData(data);

@@ -12,7 +12,7 @@ export default function CitizenAdvisory({ cityState }) {
   const handleOptimize = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/advisory/optimize`, {
+      const res = await fetch(`${window.API_URL}/api/advisory/optimize`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -18,7 +18,7 @@ export default function InteractiveCharts({ cityState, timeHour }) {
     const fetchForecast = async () => {
       setForecastLoading(true);
       try {
-        const res = await fetch(`http://${window.location.hostname}:3001/api/forecast/${selectedZoneIdx}`);
+        const res = await fetch(`${window.API_URL}/api/forecast/${selectedZoneIdx}`);
         const data = await res.json();
         if (data.success) {
           setForecastData(data);

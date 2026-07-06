@@ -30,7 +30,7 @@ export default function OperationsCenter({ cityState, setCityState, citizenRepor
   const fetchVisionAnalysis = async () => {
     setVisionLoading(true);
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/vision/analyze`, {
+      const res = await fetch(`${window.API_URL}/api/vision/analyze`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ zoneIdx: selectedCamIdx })
@@ -62,7 +62,7 @@ export default function OperationsCenter({ cityState, setCityState, citizenRepor
     if (!activeZone) return;
     setOverrideMsg('Syncing signal cycle...');
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/telemetry/override`, {
+      const res = await fetch(`${window.API_URL}/api/telemetry/override`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ zoneIdx: selectedCamIdx, metric: 'traffic', value: 20 })
@@ -105,7 +105,7 @@ export default function OperationsCenter({ cityState, setCityState, citizenRepor
 
   const resolveReportOnServer = async (id) => {
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/reports/resolve`, {
+      const res = await fetch(`${window.API_URL}/api/reports/resolve`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id })
@@ -127,7 +127,7 @@ export default function OperationsCenter({ cityState, setCityState, citizenRepor
   const handleGridBoost = async () => {
     setGridSuccessMsg('Initiating load transfer...');
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/telemetry/grid-boost`, {
+      const res = await fetch(`${window.API_URL}/api/telemetry/grid-boost`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ zoneIdx: 3 }) // Target Makarpura Industrial Zone

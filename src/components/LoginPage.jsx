@@ -24,7 +24,7 @@ export default function LoginPage({ onLoginSuccess }) {
     setErrorMsg('');
 
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/login`, {
+      const res = await fetch(`${window.API_URL}/api/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ export default function LoginPage({ onLoginSuccess }) {
     setErrorMsg('');
 
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/register`, {
+      const res = await fetch(`${window.API_URL}/api/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

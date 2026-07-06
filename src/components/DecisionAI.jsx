@@ -45,7 +45,7 @@ export default function DecisionAI({ cityState }) {
     setIsTyping(true);
 
     // Send request to backend Express chat api
-    fetch(`http://${window.location.hostname}:3001/api/chat`, {
+    fetch(`${window.API_URL}/api/chat`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

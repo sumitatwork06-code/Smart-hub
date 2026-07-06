@@ -125,7 +125,7 @@ export default function App() {
   // Fetch initial state from server
   const fetchState = async () => {
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/state`);
+      const res = await fetch(`${window.API_URL}/api/state`);
       const data = await res.json();
       
       // Update coordinates dynamically if Vadodara is active
@@ -173,7 +173,7 @@ export default function App() {
 
       // Sync with database
       try {
-        await fetch(`http://${window.location.hostname}:3001/api/state/sync`, {
+        await fetch(`${window.API_URL}/api/state/sync`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ zones: projected })
@@ -307,7 +307,7 @@ export default function App() {
     setCityState(prev => ({ ...prev, zones: updatedZones }));
 
     try {
-      await fetch(`http://${window.location.hostname}:3001/api/state/sync`, {
+      await fetch(`${window.API_URL}/api/state/sync`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ zones: updatedZones })
@@ -320,7 +320,7 @@ export default function App() {
   // Add crowdsourced report and update target zone
   const handleAddReport = async (report) => {
     try {
-      const res = await fetch(`http://${window.location.hostname}:3001/api/reports`, {
+      const res = await fetch(`${window.API_URL}/api/reports`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(report)
