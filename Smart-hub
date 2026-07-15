@@ -1,0 +1,36 @@
+Building SmartHub: A Digital Twin for Vadodara's Everyday Operations
+
+The problem
+
+Every city runs on decisions made with half the picture. Traffic controllers, utility teams, and emergency responders in mid-size Indian cities like Vadodara often work off fragmented data — a call here, a report there, no unified view of what's actually happening on the ground right now. There's no single console where someone can look at the city's live state and make a decision informed by more than instinct and a phone call.
+
+SmartHub is my attempt to close that gap: a Digital Twin and Operational Decision Intelligence Console that gives city operators a live, map-based view of Vadodara — built to be something a real control room could plausibly use, not just a demo.
+
+What I built
+
+SmartHub renders Vadodara as an interactive digital twin using Leaflet.js, layering live and simulated operational data — traffic flow, incident zones, infrastructure status — onto a map interface operators can actually navigate. The frontend is built in React with Vite for fast iteration, and the backend runs on Node.js and Express, handling data ingestion and serving the console in near real time.
+
+For the intelligence layer, I integrated the Gemini SDK to let operators query the system in natural language — asking things like "what's the current status near [zone]" and getting a synthesized answer instead of having to cross-reference multiple dashboards manually.
+
+I built the whole thing using Antigravity, Google's agent-first IDE, which shaped how I approached the build — leaning on AI-assisted iteration to move fast under hackathon time constraints while still keeping the architecture something I understood end to end, not just generated code I couldn't defend.
+
+What's still rough
+
+I'm not going to pretend this is a finished product. A few things I know need work:
+
+
+The CCTV module is currently simulated. It demonstrates the idea of multimodal incident detection, but it isn't yet running real vision models against live feeds.
+Predictive/forecasting capability is limited. The console is strong on "what's happening now" and weaker on "what's likely to happen next" — that's the next build priority.
+Deeper Google Cloud AI integration is a work in progress. Right now the intelligence layer leans on the Gemini SDK; extending it into Vertex AI for forecasting and anomaly detection is the natural next step, and one I'm actively working on.
+
+
+Why this problem, why now
+
+I'm a CS student who came into this through hackathons, not through a city-planning background — which meant a lot of the early build was just learning what operators actually need versus what looks impressive in a demo. Vadodara isn't a mega-city with existing smart-city infrastructure investment; that's exactly why a lightweight, extensible console like this matters more here than in a city that already has expensive legacy systems.
+
+What's next
+
+I'm continuing to build this out — closing the forecasting gap, moving the CCTV module from simulated to real multimodal processing, and deepening the Vertex AI footprint so the "intelligence" in Decision Intelligence Console is doing more of the heavy lifting. If you're working on similar problems for other Indian cities, I'd like to hear from you.
+
+
+Built with React, Vite, Node.js, Express, Leaflet.js, and the Gemini SDK, using Antigravity as the primary build environment.
